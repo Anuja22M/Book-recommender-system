@@ -1,21 +1,16 @@
 # 📚 Book Recommendation System
 
-An intelligent, interactive book recommendation web app combining traditional collaborative filtering and modern AI (LLM) techniques to deliver personalized suggestions.
+An interactive book recommendation web app created using traditional collaborative filtering techniques to deliver personalized suggestions.
 
 ## 🚀 Features
 
 - 🔥 **Popular Book Display** – Showcases trending books on the homepage.
 - 🔍 **Collaborative Filtering Recommendations** – Suggests similar books based on user-selected titles.
-- 🤖 **AI-Powered GPT Search** – Uses large language models to generate recommendations from natural language prompts.
 - 🌐 **Web Interface** – Built with HTML, CSS and Bootstrap for a responsive UI.
-- 📈 **Hybrid System** – Combines static data-driven filtering and dynamic AI responses.
+- 📈 **Hybrid System** – Combines static data-driven filtering.
 
 ## 🧠 Powered by
-- **SambaNova**'s LLM model: `Llama-4-Maverick-17B-128E-Instruct`
-- OpenAI-compatible API integration
 - Pandas, NumPy, Flask, Sklearn, Google Colab.
-
----
 
 ## 🗂️ Project Structure
 📁 project/
@@ -72,14 +67,13 @@ Collaborative Filtering (/recommend) – Enter a book name to get similar ones.
 
 
 
-
-
 After **Collaborative Filtering** (/recommend_books) 
 
 <img width="1760" height="859" alt="image" src="https://github.com/user-attachments/assets/cff2278a-dd41-4581-9f6e-faf354d4c202" />
 
 
-
+🔖Future Thoughts: - 
+🤖 **AI-Powered GPT Search** – Uses large language models to generate recommendations from natural language prompts.
 
 
 
