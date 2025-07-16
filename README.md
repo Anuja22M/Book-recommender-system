@@ -20,19 +20,51 @@ An intelligent, interactive book recommendation web app combining traditional co
 ## 🗂️ Project Structure
 📁 project/
 ├── app.py # Main Flask web app
+
+
 ├── Book_Recommendation_ML.ipynb # Main ML logic that calculates similarity_score
+
+
 ├── gpt_search.py # GPT-powered recommendation logic
+
+
 ├── books.csv # Book metadata
+
+
 ├── pt.csv # Pivot table for collaborative filtering
+
+
 ├── popular1_df.csv # Precomputed popular books
+
+
 ├── similarity_score.csv # Similarity matrix for collaborative filtering
+
+
 ├── templates/
+
+
 │ ├── index.html
+
+
 │ ├── recommend.html
+
+
 │ ├── gpt.html
+
+
 │ └── gpt_search.html
+
+
 ├── .env # Environment variables (not committed)
+
+
 └── README.md # You're here!
+
+
+
+
+
+
 
 🟢Create and Activate a Virtual Environment(in Git-Bash)
 python -m venv venv
