@@ -1,0 +1,5 @@
+Flask==3.1.1               # Web framework
+pandas==2.3.1              # For dataframes (book data)
+numpy==2.3.1               # For numeric operations
+python-dotenv==1.1.1       # For loading environment variables
+openai==1.95.1             # For GPT-based book recommendations
