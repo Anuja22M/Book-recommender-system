@@ -11,7 +11,7 @@ An intelligent, interactive book recommendation web app combining traditional co
 - 📈 **Hybrid System** – Combines static data-driven filtering and dynamic AI responses.
 
 ## 🧠 Powered by
-- **SambaNova**'s LLM model: `Llama-4-Maverick-17B-128E-Instruct`
+- LLM model: `Llama-4-Maverick-17B-128E-Instruct`
 - OpenAI-compatible API integration
 - Pandas, NumPy, Flask, Sklearn, Google Colab.
 
@@ -75,8 +75,8 @@ pip install -r requirements.txt
 
 🔖Set Environment Variables
 Create a .env file in the root directory with:
-SAMBANOVA_API_KEY=your_api_key_here
-SAMBANOVA_BASE_URL=https://your-sambanova-endpoint.com/v1
+API_KEY=your_api_key_here
+BASE_URL=https://your-endpoint.com/v1
 
 💻 Run the Application
 flask run
