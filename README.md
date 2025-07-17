@@ -75,7 +75,9 @@ pip install -r requirements.txt
 
 🔖Set Environment Variables
 Create a .env file in the root directory with:
+
 API_KEY=your_api_key_here
+
 BASE_URL=https://your-endpoint.com/v1
 
 💻 Run the Application
