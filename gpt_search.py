@@ -15,8 +15,8 @@ def get_book_recommendations(prompt, api_key=None, model="Llama-4-Maverick-17B-1
     """
     # Initialize the client with API key from argument or environment variable
     client = OpenAI(
-        api_key=api_key or os.getenv("SAMBANOVA_API_KEY"),
-        base_url=os.getenv("SAMBANOVA_BASE_URL")
+        api_key=api_key or os.getenv("API_KEY"),
+        base_url=os.getenv("BASE_URL")
     )
     
     # Add specific instruction to the prompt to ensure proper formatting
